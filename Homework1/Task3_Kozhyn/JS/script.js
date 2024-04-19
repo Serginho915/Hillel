@@ -6,3 +6,6 @@ let res = '';
          res += number[i] + " ";
      }  
 alert(res);
+
+
+
