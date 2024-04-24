@@ -6,5 +6,4 @@ let number = +prompt('Enter your number');
         if(number % i === 0) bool = false;
     }
 
-
-bool ? console.log(`${number} is simple number`) : console.log(`${number} is  not simple number`)
+    bool ? console.log(`${number} is simple number`) : console.log(`${number} is  not simple number`)
