@@ -1,5 +1,5 @@
 let number = Math.floor(+prompt('Enter your number'));
-    str = '';
+let str = '';
 
 for (let i = 1; i <= 100; i++) {
    
