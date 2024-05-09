@@ -17,7 +17,11 @@ let company ={
     sales:[{name:'John',salary:1000},{name:'Steve',salary:1500},{name:'Anton',salary:20000}],
     development:{
         web:[{name:'Anna',salary:9000},{name:'Victor',salary:7000}],
-        design:[{name:'Kevin',salary:5000},{name:'Lena',salary:1000}]
+        design:[{name:'Kevin',salary:5000},{name:'Lena',salary:1000}],
+        HR:{
+            outsource:[{name:'Amanda',salary:15000}],
+            employee:[{name:'Kristina',salary:13000}]
+        }
     }
 }
 
