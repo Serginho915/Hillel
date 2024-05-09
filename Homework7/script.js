@@ -13,11 +13,11 @@ function calculateTotalSalary(object) {
 }
 // Без циклу(чиста рекурсія)
 // function calculateTotalSalary(object) {
-//     if (Array.isArray(object)) { // Якщо значення - масив
+//     if (Array.isArray(object)) { 
 //         return object.reduce((accumulator, currentValue) => accumulator + currentValue.salary, 0);
-//     } else if (typeof object === 'object') { // Якщо значення - об'єкт
+//     } else if (typeof object === 'object') { 
 //         return Object.keys(object).reduce((accumulator, key) => accumulator + calculateTotalSalary(object[key]), 0);
-//     } else { // Якщо значення - не масив і не об'єкт
+//     } else { 
 //         return 0;
 //     }
 // }
