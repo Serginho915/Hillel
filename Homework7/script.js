@@ -11,7 +11,16 @@ function calculateTotalSalary(object) {
     }
     return sum;
 }
-
+// Без циклу(чиста рекурсія)
+// function calculateTotalSalary(object) {
+//     if (Array.isArray(object)) { // Якщо значення - масив
+//         return object.reduce((accumulator, currentValue) => accumulator + currentValue.salary, 0);
+//     } else if (typeof object === 'object') { // Якщо значення - об'єкт
+//         return Object.keys(object).reduce((accumulator, key) => accumulator + calculateTotalSalary(object[key]), 0);
+//     } else { // Якщо значення - не масив і не об'єкт
+//         return 0;
+//     }
+// }
 
 let company ={
     sales:[{name:'John',salary:1000},{name:'Steve',salary:1500},{name:'Anton',salary:20000}],
