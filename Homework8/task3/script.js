@@ -14,10 +14,10 @@ ContactBook.prototype.addContact = function(name, phoneNumber, email) {
 let myContactBook = new ContactBook();
 
   
-myContactBook.addContact("Іван", "123456789", "ivan@example.com");
-myContactBook.addContact("Марія", "987654321", "maria@example.com"); 
-myContactBook.addContact("Петро", "456789123", "petro@example.com");
+myContactBook.addContact("Ivan", "123456789", "ivan@gmail.com");
+myContactBook.addContact("Maria", "987654321", "maria@gmail.com"); 
+myContactBook.addContact("Petro", "456789123", "petro@gmail.com");
 
-console.log(myContactBook.searchContactByName("Марія"));  
+console.log(myContactBook.searchContactByName("Maria"));  
 console.log(myContactBook.contacts);
   
