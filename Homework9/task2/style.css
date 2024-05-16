@@ -1,0 +1,15 @@
+p{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(174, 226, 28);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    
+}
