@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: #f0f0f0;
+        }
+        .weather-widget {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .weather-widget h2 {
+            margin: 0 0 10px 0;
+        }
+        .weather-widget p {
+            margin: 5px 0;
+        }
+        .refresh-button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .refresh-button:hover {
+            background: #0056b3;
+        }
+    </style>
+<script defer src="bundle.js"></script><script defer src="bundle.js"></script></head>
+<body>
+    
+    <div class="weather-widget">
+        <h2 id="city">Місто</h2>
+        <p id="temperature">Температура: --°C</p>
+        <p id="description">Опис: --</p>
+        <button class="refresh-button" onclick="getWeather()">Оновити</button>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
